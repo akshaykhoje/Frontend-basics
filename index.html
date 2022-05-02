@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Port<span>folio</span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+        <a href="#" class="btn">Subscribe</a>
+      </nav>
+
+      <div class="content">
+        <h4>Hello, I am</h4>
+        <h1>Akshay Khoje</h1>
+        <h3>I am a Web Developer</h3>
+        <div class="newsletter">
+          <form>
+            <!-- give a backend and give action address for taking response -->
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter your Email"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section class="about">
+      <div class="main">
+        <img src="img/akshay2.jpeg" alt="Image not found!" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Web Developer</h5>
+          <p>
+            I am a frontend Web Developer. I enjoy making beautiful websites and
+            webpages. I try to write better code everytime I code. Soon I'll get
+            back to React after revising my basics with HTML, CSS with this
+            project.
+          </p>
+          <p>I am learning backend development alongside.</p>
+          <button type="button">Text Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section start -->
+    <div class="skills">
+      <div class="title">
+        <h2>My skills</h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h3>Web Development</h3>
+          <div class="para">
+            <p>
+              I am currently learning web development. Specifically, I am
+              interested in backend development. Meanwhile I am revising my
+              front-end development from basics.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h3>Engineering</h3>
+          <div class="para">
+            <p>
+              As a Computer Engineering sophomore, I am interested in Science
+              and technology. Along with that, I also take interest in various
+              domains like history, political science, economics, psychology,
+              etc.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h3>Competitive Programming</h3>
+          <div class="para">
+            <p>
+              I like to write code in C and low level langauges, although
+              sometimes the code gets onto my nerves...🙂. Solving problems
+              keeps one active and young. Hence CP is essential to become an
+              overall good programmer.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-me">
+      <p>
+        I am open for discussions on various topics. Although recently,
+        engineering has caught up on me leaving me with less leisure time...sed
+        life!
+      </p>
+      <p>
+        Any ideas related to programming or any new technology, or just random
+        scientific concepts you find interesting - feel free to tell me.
+      </p>
+    </div>
+
+    <footer>
+      <p>Akshay Khoje</p>
+      <div class="socialhandles">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p class="end">Copyleft by Akshay Khoje</p>
+    </footer>
+  </body>
+</html>
